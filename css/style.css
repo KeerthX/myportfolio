@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #181616;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0px;
+  }
+
+  .landing_section {
+    background-color: #121010;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
