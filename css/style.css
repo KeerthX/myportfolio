@@ -7,18 +7,79 @@ body {
   background-color: #181616;
 }
 
-section {
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    margin: 0px;
-  }
+.sec_heading {
+  font-size: 60px;
+  font-weight: 1000;
+  color: white;
+}
 
-  .landing_section {
-    background-color: #121010;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+section {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  margin: 0px;
+}
+
+.landing_section {
+  background-color: #121010;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.aboutme_section {
+  background-color: #121010;
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.about-info {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+.about-info span:first-child {
+  font-weight: 600;
+  color: white;
+  width: 300px;
+  padding: 1%;
+}
+
+.about-info span:nth-child(2) {
+  font-weight: 200;
+  color: white;
+  width: 1000px;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+.text p {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  font-size: 20px;
+  color: #7c7c7c;
+}
+
+@media (max-width: 990px) {
+  .aboutme_section img {
+    display: none;
   }
+}
